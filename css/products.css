@@ -1,0 +1,167 @@
+.hr{
+    background-color: black;
+}
+section.product{
+    margin-top: 174px;
+}
+#mainImg{
+    width: 471px;
+    height: 257px;
+    outline: solid 1px black;
+    background: url("../img/AssassinS_Creed/slider1.png");
+    margin-bottom: 63px;
+}
+.sliderImg{
+    text-align: center;
+}
+.sliderImg img{
+    width: 88px;
+    height: 63px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+section.similarGames{
+background-color: #EEEEEE}
+
+section.similarGames strong{
+    padding-top: 50px;
+}
+section.similarGames div.img{
+    max-width: 270px;
+    padding-bottom: 40px;
+    margin: 10px;
+}
+div.img img{
+    max-width: 270px;
+}
+div.img{
+    max-width: 500px;
+    margin-right: 50px;
+}
+div.img img:hover{
+    opacity: 0.8;
+    box-shadow: dimgray 5px 5px;
+}
+section.similarGames div>div{
+    background: none;
+}
+section.similarGames strong{
+    margin-bottom: 105px;
+}
+.img .b{
+    height: 39px;
+    margin-top: 21px;
+    width: 128px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 5px;
+}
+.img .button{
+    display: block;
+    text-align: center;
+    margin-bottom: 31px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.text b{
+    position: relative;
+    left: 30%;
+    transform: translate(-50%, 0);
+    font-size: 62px;
+    font-weight: 200;
+}
+span{
+    max-width: 291px;
+    display: block;
+    text-align: center;
+    font-size: 36px;
+}
+.spanName{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+span.orange{
+    color: #F44336;
+}
+section.product{
+    min-height: 700px;
+}
+section.product .button{
+    width: 471px;
+    height: 63px;
+    font-size: 30px;
+    margin: 14px 0 32px 0;
+}
+
+section.product p{
+    display: block;
+    color: #999999;
+    font-size: 12px;
+    text-align: left;
+    width: 463px;
+}
+div.img .sliderImg{
+    text-align: center;
+}
+
+@media only screen and (min-width:1024px) and (max-width : 1440px) {
+    div.img img {
+        max-width: 230px;
+    }
+    .text b{
+        text-align: center;
+        font-size: 62px;
+        font-weight: 200;
+    }
+    div.img{
+        max-width: 500px;
+    }
+    div.img img {
+        max-width: 200px;
+    }
+    .text b{
+        text-align: center;
+        font-size: 62px;
+        font-weight: 200;
+    }
+}
+
+@media only screen  and (max-width: 1023px) {
+    section.similarGames strong {
+        margin-top: 100px;
+    }
+    section.similarGames {
+        margin-top: -140px;
+    }
+    section.similarGames .button{
+        max-width: 200px;
+    }
+    div.img{
+        max-width: 500px;
+    }
+    div.img img {
+        max-width: 200px;
+    }
+    .text b{
+        text-align: center;
+        font-size: 62px;
+        font-weight: 200;
+    }
+    section.product .button{
+        width: 400px;
+        height: 63px;
+    }
+    section.product p{
+        color: #999999;
+        font-size: 12px;
+        text-align: left;
+        width: 383px;
+    }
+    .button{
+        width: 233px;
+    }
+}

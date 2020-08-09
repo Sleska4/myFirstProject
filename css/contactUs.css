@@ -1,0 +1,26 @@
+div.hr{
+    margin-top: 2px;
+    background-color: black;
+}
+.goTop{
+    margin-top: -100px;
+}
+.graySection{
+    margin-top: 5px;
+    height: 700px;
+}
+@media only screen and (min-width:1024px) and (max-width : 1480px){
+    .graySection{
+        margin-top: -1px;
+        height: 700px;
+    }
+}
+@media only screen  and (max-width: 1023px){
+    .graySection{
+        margin-top: -50px;
+        height: 700px;
+    }
+    .form{
+        margin-top: 70px;
+    }
+}

@@ -1,0 +1,160 @@
+.hr{
+    background-color: black;
+}
+section.gallery strong{
+    padding-top: 150px;
+}
+div.img{
+    max-width: 270px;
+    padding-bottom: 40px;
+    margin: 10px
+}
+div.img img{
+    max-width: 270px;
+}
+div.img img:hover{
+    opacity: 0.8;
+    box-shadow: dimgray 5px 5px;
+}
+section.gallery div>div{
+    background: none;
+}
+section.gallery strong{
+    margin-bottom: 105px;
+}
+.img .b{
+    height: 39px;
+    margin-top: 21px;
+    width: 128px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 5px;
+}
+.img .button{
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.gallery>button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 16px;
+    width: 209px;
+    height: 39px;
+    border: solid black 1px;
+    background-color: white;
+    font-weight: 600;
+}
+.gallery>button:hover{
+    border: solid red 1px;
+    color: red;
+}
+.gallery>button:active{
+    border: solid black 1px;
+    background-color: red;
+    color: white;
+}
+section.discount .CoD{
+    background: url("../img/gallery/CoD.png") no-repeat;
+}
+section.discount .CoD{
+    width: 50%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+section.discount .MoH{
+    background: url("../img/gallery/MoH.png") no-repeat;
+    width: 50%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+section.discount b{
+    display: block;
+    font-size: 18px;
+}
+section.discount b.orange{
+    font-size: 30px;
+    color: #F44336;
+    max-width: 263px;
+    margin-top: 17px;
+    font-weight: 400;
+    height: 63px;
+}
+section.discount .text{
+    margin-top: 160px;
+    margin-left: -150px;
+}
+span{
+    color: black;
+    font-size: 56px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+span.grayPrise{
+    font-size: 48px;
+    color: #888888;
+}
+section.discount .button{
+    margin-bottom: 90px;
+}
+@media only screen and (min-width:1024px) and (max-width : 1440px){
+    div.img img{
+        max-width: 230px;
+    }
+    section.discount .text{
+        margin-top: 40px;
+        margin-left: -60px;
+    }
+    span{
+        font-size: 46px;
+    }
+    span.grayPrise{
+        font-size: 38px;
+    }
+    section.discount b{
+        font-size: 18px;
+    }
+    section.discount b.orange{
+        margin-top: 5px;
+    }
+
+}
+@media only screen  and (max-width: 1023px){
+    section.gallery strong{
+        margin-top: 100px;
+    }
+    section.gallery{
+        margin-top: -140px;
+    }
+    div.img img{
+        max-width: 200px;
+    }
+    section.discount .text{
+        margin-top: 40px;
+        margin-left: -60px;
+        max-width: 300px;
+    }
+    span{
+        font-size: 46px;
+    }
+    span.grayPrise{
+        font-size: 38px;
+    }
+    section.discount b{
+        font-size: 18px;
+    }
+    section.discount b.orange{
+        margin-top: 5px;
+    }
+}
